@@ -1,0 +1,196 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* main */
+.main {
+  position: relative;
+  margin-bottom: 104px;
+}
+
+.main__container {
+  position: relative;
+  max-width: 1770px;
+  margin: 0 auto;
+}
+
+.main__article {
+  position: relative;
+  padding-top: 100px;
+  padding-left: 80px;
+  z-index: 5;
+  color: #ffffff;
+}
+
+.main__header {
+  max-width: 980px;
+  margin-bottom: 17px;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 90px;
+  color: #ffffff;
+}
+
+.main__header-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  max-width: 790px;
+  margin-bottom: 86px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.main__button {
+  cursor: pointer;
+  padding: 25px 35px;
+  font-weight: 700;
+  font-size: 24px;
+  border: none;
+  line-height: 29px;
+  margin-bottom: 100px;
+  color: #ffffff;
+  background-color: var(--main-color);
+  -webkit-transition-property: background-color, outline;
+  -o-transition-property: background-color, outline;
+  transition-property: background-color, outline;
+  -webkit-transition-duration: 200ms;
+       -o-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-transition-timing-function: linear;
+       -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.main__button:hover,
+.main__article:focus {
+  background-color: rgba(255, 153, 0, 0.7);
+  outline: none;
+}
+
+.main__button:active {
+  background-color: rgba(225, 103, 14, 1);
+  outline: none;
+}
+
+@media (max-width: 1360px) {
+  .main {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+  }
+
+  .main__container {
+    padding: 0 50px;
+  }
+
+  .main__article {
+    padding: 160px 77px 160px 77px;
+    max-height: 668px;
+  }
+
+  .main__header {
+  max-width: 770px;
+  margin-bottom: 17px;
+  font-size: 60px;
+  line-height: 73px;
+  }
+
+  .main__header-description {
+  max-width: 660px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  line-height: 24px;
+  }
+
+  .main__button {
+  padding: 25px 38px;
+  font-size: 23px;
+  line-height: 28px;
+  }
+}
+
+@media (max-width: 986px) {
+  .main {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 82px;
+  }
+
+  .main__container{
+    padding: 0 50px;
+  }
+
+  .main__article {
+    padding: 160px 40px 160px 40px;
+    max-height: 668px;
+  }
+
+  .main__header {
+  max-width: 770px;
+  margin-bottom: 16px;
+  font-size: 50px;
+  line-height: 60px;
+  }
+
+  .main__header-description {
+  margin-bottom: 57px;
+  font-size: 18px;
+  line-height: 24px;
+  }
+
+  .main__button {
+  padding: 23px 38px;
+  font-size: 23px;
+  line-height: 28px;
+  }
+}
+
+@media (max-width: 520px) {
+  .main {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 63px;
+  }
+
+  .main__container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .main__article {
+    padding: 60px 21px 60px 22px;
+    max-height: 668px;
+  }
+
+  .main__header {
+    max-width: 310px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .main__header-description {
+    margin-bottom: 34px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .main__button {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 29px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+}

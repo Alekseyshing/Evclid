@@ -1,0 +1,515 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* footer */
+.footer {
+  padding-top: 48px;
+  padding-bottom: 50px;
+  background-color: #222222;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__section-left {
+  margin-right: 115px;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  margin-bottom: 87px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  color: #cacaca;
+}
+
+.footer__list-item {
+  font-size: 18px;
+  line-height: 36px;
+  -webkit-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 200ms;
+       -o-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-transition-timing-function: linear;
+       -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.footer__list-item:hover {
+  color: var(--main-color);
+}
+
+.footer__list-item:active {
+  color: #E1670E;
+}
+
+.footer__social-media-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__social-media-list-item {
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin-right: 25px;
+}
+
+.footer__facebook {
+  background-image: url(../img/fb.svg);
+}
+
+.footer__vk {
+  background-image: url(../img/vk.svg);
+}
+
+.footer__instagram {
+  background-image: url(../img/instagram.svg);
+}
+
+.footer__facebook,
+.footer__vk,
+.footer__instagram {
+  -webkit-transition-property: background-image;
+  -o-transition-property: background-image;
+  transition-property: background-image;
+  -webkit-transition-duration: 200ms;
+       -o-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-transition-timing-function: linear;
+       -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.footer__facebook:hover {
+  background-image: url(../img/status\ =\ hover.svg);
+}
+
+.footer__facebook:active {
+  background-image: url(../img/status\ =\ active.svg);
+}
+
+.footer__vk:hover {
+  background-image: url(../img/vkhover.svg);
+}
+
+.footer__vk:active {
+  background-image: url(../img/vkactive.svg);
+}
+
+.footer__instagram:hover {
+  background-image: url(../img/instagramhover.svg);
+}
+
+.footer__instagram:active {
+  background-image: url(../img/instagramactive.svg);
+}
+
+.footer__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__form-header {
+  margin-bottom: 26px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 59px;
+  color: #cacaca;
+}
+
+.footer__form-input {
+  margin-bottom: 27px;
+  padding-left: 23px;
+  padding-bottom: 10px;
+  width: 570px;
+  height: 59px;
+  color: #cacaca;
+  background-color: #414141;
+  -webkit-transition-property: background-color, outline, -webkit-transform;
+  transition-property: background-color, outline, -webkit-transform;
+  -o-transition-property: background-color, outline, transform;
+  transition-property: background-color, outline, transform;
+  transition-property: background-color, outline, transform, -webkit-transform;
+  -webkit-transition-duration: 200ms;
+       -o-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-transition-timing-function: linear;
+       -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.footer__form-input:hover {
+  background-color: #666666;
+}
+
+.footer__form-input:focus {
+  outline: none;
+  background-color: #666666;
+}
+
+.footer__form-input:active {
+  background-color: #666666;
+}
+
+.footer__form-input-message {
+  margin-bottom: 32px;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 570px;
+  height: 150px;
+}
+
+.footer__text{
+  margin-top: 90px;
+  width: 363px;
+  font-size: 16px;
+  line-height: 32px;
+  color: #cacaca;
+}
+
+.footer__form-button {
+  margin-right: 18px;
+  padding: 19px 52px;
+  font-weight: 700;
+  line-height: 20px;
+  border: none;
+  color: #ffffff;
+  background-color: var(--main-color);
+  -webkit-transition-property: background-color, outline;
+  -o-transition-property: background-color, outline;
+  transition-property: background-color, outline;
+  -webkit-transition-duration: 200ms;
+       -o-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-transition-timing-function: linear;
+       -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.footer__form-button:hover,
+.footer__form-button:focus {
+  background-color: #FF9900B2;
+  outline: none;
+}
+
+.footer__form-button:active {
+  background-color: #E1670E;
+}
+
+.footer__checkbox {
+  position: relative;
+  cursor: pointer;
+  color: #cacaca;
+}
+
+@media (max-width:1435px) {
+  .footer {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .footer__section-left {
+    margin-right: 0px;
+  }
+  
+  .footer__list {
+    margin-bottom: 89px;
+  }
+
+  .footer__text{
+    display: none;
+    visibility: hidden;
+  }
+
+  .footer__form-header {
+    margin-bottom: 23px;
+  }
+
+  .footer__form-button {
+    padding: 19px 38px;
+    margin-right: 12px;
+  }
+
+  .footer__form-input {
+    width: 540px;
+    padding-bottom: 0px;
+  }
+
+  .footer__checkbox {
+    font-size: 16px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width:986px) {
+  .footer {
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .footer__form-header {
+    margin-top: 0px;
+  }
+
+  .footer__form {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin-bottom: 50px;    
+    padding: 0;
+  }
+
+  .footer__section-left {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+  }
+
+  .footer__list {
+    visibility: hidden;
+    max-height: 0;
+    margin-bottom: 0;
+  }
+
+  .footer__form-input {
+    width: 100%;
+  }
+
+  .footer__logo {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+
+  .footer__social-media-list {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+
+  @media (max-width: 670px) {
+    .footer__form-input {
+      font-size: 14px;
+      line-height: 32px;
+    }
+
+  .footer__logo {
+    margin-bottom: 10px;
+  }
+
+  .footer__form-elements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .footer__form-button {
+    margin-right: 15px;
+  }
+
+  .footer__text {
+    max-height: 0;
+  }
+}
+
+@media (max-width: 670px) {
+  .footer__form-input {
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width:520px) {
+  .footer {
+    min-height: 900px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer__container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer__form-header {
+    margin-top: 33px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .footer__text {
+    margin-top: 0px;
+    font-size: 16px;
+    line-height: 32px;
+    color: #cacaca;
+  }
+  
+  .footer__form-input-message {
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+  }
+
+  .footer__form-elements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .footer__form-button {
+    display: block;
+    text-align: center;
+    padding: 15px 28px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 9px;
+    margin-bottom: 10px;
+  }
+
+   .footer__checkbox {
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #595959;
+  }
+
+  .footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -ms-flex-line-pack:end;
+        align-content:flex-end;
+  }
+
+  .footer__section-left {
+    -webkit-box-ordinal-group: -1;
+        -ms-flex-order: -2;
+            order: -2;
+    margin-right: 0;
+  }
+
+  .footer__logo {
+    max-width: 131px;
+    max-height: 42px;
+  }
+
+  .footer__form {
+    margin-bottom: 30px;
+  }
+
+  .footer__social-media-list-item {
+    margin-right: 0;
+  }
+
+  .footer__facebook {
+  background-image: url(../img/fb40.svg);
+  background-repeat: no-repeat;
+  }
+
+  .footer__vk {
+  background-image: url(../img/vk40.svg);
+  background-repeat: no-repeat;
+  }
+
+  .footer__instagram {
+  background-image: url(../img/instagram40.svg);
+  background-repeat: no-repeat;
+  }
+
+.footer__facebook:hover {
+  background-image: url(../img/fbhover40.svg);
+  }
+
+.footer__facebook:active {
+  background-image: url(../img/fbactive40.svg);
+  }
+
+.footer__vk:hover {
+  background-image: url(../img/vkhover40.svg);
+  }
+
+.footer__vk:active {
+  background-image: url(../img/vkactive40.svg);
+  }
+
+.footer__instagram:hover {
+  background-image: url(../img/instagramhover40.svg);
+  }
+
+.footer__instagram:active {
+  background-image: url(../img/instagramactive40.svg);
+  }
+}
+}

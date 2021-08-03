@@ -1,0 +1,105 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  font-family: 'Montserrat', Arial, sans-serif;  
+  font-weight: 400;
+  color: #333333;
+  line-height: 1;
+}
+
+button, input {
+  font: inherit;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1, h2, h3, p, ul, ol {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 400;
+  color: #333333;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.container {
+  max-width: 1870px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.section-heading {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 59px;
+  line-height: 59px;
+  color:#333333
+}
+
+.header__visually-hidden,
+.footer__visually-hidden  {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important; 
+  width: 1px !important; 
+  overflow: hidden;
+}
+
+
+
+:root {
+  --main-background-color: #e5e5e5;
+  --main-color: #FF9900;
+}
+
+:focus {
+  outline: 2px solid var(--main-color);
+}
+
+@media (max-width:320px) {
+  h2 {
+    font-weight: 400;
+    color: #333333;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}

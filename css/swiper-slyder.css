@@ -1,0 +1,30 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.swiper-container {
+  width: 100%;
+}
+
+.main .swiper-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.swiper-slide {
+ background-size: cover;
+}
+
+.swiper-pagination-bullet {
+background: #FFFFFF 40%;
+}
+
+.swiper-pagination-bullet-active {
+background: #ffffff;
+}

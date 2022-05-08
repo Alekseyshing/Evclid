@@ -5,11 +5,11 @@
 * Browsers: last 4 version
 */
 
-.swiper-container {
+.swiper {
   width: 100%;
 }
 
-.main .swiper-container {
+.main .swiper {
   position: absolute;
   left: 0;
   right: 0;

@@ -9,20 +9,9 @@ window.addEventListener('DOMContentLoaded', function() {
     document.querySelector('#search-btn').classList.toggle('header__search-btn-epsent')
   })
 
-
-  // document.querySelector('#closed-search').addEventListener('click', function() {
-  //   document.querySelector('#form').classList.toggle('header__search-form')
-  //   document.querySelector('#search-btn').classList.toggle('header__search-btn')
-  // })
-
-
   document.querySelector('#search-btn').addEventListener('click', function() {
     document.querySelector('#menu').classList.toggle('header__is-hidden')
   })
-
-  // document.querySelector('#question').addEventListener('click', function() {
-  //   document.querySelector('#icon-quest').classList.toggle('questions__icon-x')
-  // })
 
   document.querySelector('#icon').addEventListener('click', function() {
     document.querySelector('.questions__icon').classList.toggle('questions__icon-active')

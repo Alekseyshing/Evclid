@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Evclid</title>
+  <title>Evclid - строительные решения</title>
   <link rel="preload" href="fonts/montserrat-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/montserrat-regular-webfont.woff" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/montserrat-bold-webfont.woff2" as="font" type="font/woff2" crossorigin>
@@ -16,6 +16,13 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/fonts.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#333333">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main.css">
@@ -81,7 +88,7 @@
                 Введите текст для поиска
               </span>
               <input id="input-search-name" type="text" placeholder="Что будем искать?" name="input-search-name"
-              class="header__search-form-input">
+                class="header__search-form-input">
             </label>
             <button class="header__btn-search-orange" type="submit">
               <span class="header__visually-hidden">
@@ -103,7 +110,7 @@
     <section class="main">
       <div class="container main__container">
         <!-- Slider main container -->
-        <div class="swiper-container">
+        <div class="swiper">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
@@ -111,13 +118,11 @@
             </div>
             <div class="swiper-slide" style="background-image: url('img/brown-and-blue-glass-building-20930762.jpg')">
             </div>
-            <div class="swiper-slide"
-              style="background-image: url('img/apartment-apartment-building-architecture-building-3237052.jpg')">
+            <div class="swiper-slide" style="background-image: url('img/apartment-apartment-building-architecture-building-3237052.jpg')">
             </div>
           </div>
           <!-- If we need pagination -->
           <div class="swiper-pagination"></div>
-
         </div>
         <div class="main_article-block">
           <article class="main__article">
@@ -239,9 +244,9 @@
     </section>
     <section class="questions">
 
-        <div class="container questions__container">
-          <h2 class="heading questions__header">Часто задаваемые вопросы</h2>
-          <div id="accordion">
+      <div class="container questions__container">
+        <h2 class="heading questions__header">Часто задаваемые вопросы</h2>
+        <div id="accordion">
           <ul class="questions__list">
             <li class="questions__item item">
               <h3 id="icon" class="questions__item-header">
@@ -267,7 +272,7 @@
                 </p>
               </div>
             </li>
-            <li class="questions__item"> 
+            <li class="questions__item">
               <h3 class="questions__item-header">
                 <span class="questions__text questions__text-1">У меня есть свой проект. Сможем ли мы его доработать /
                   реализовать?</span>
@@ -391,7 +396,7 @@
             Введите имя
           </span>
           <input id="footer-name" type="text" placeholder="Фамилия, имя и отчество*" name="footer-name"
-          class="footer__form-input">
+            class="footer__form-input">
         </label>
         <label for="e-mail">
           <span class="footer__visually-hidden">
@@ -404,7 +409,7 @@
             Введите Ваше сообщение
           </span>
           <textarea id="message" type="text" placeholder="Сообщение*" name="message"
-          class="footer__form-input footer__form-input-message"></textarea>
+            class="footer__form-input footer__form-input-message"></textarea>
         </label>
         <div class="footer__form-elements">
           <button type="submit" class="footer__form-button">Отправить данные</button>
